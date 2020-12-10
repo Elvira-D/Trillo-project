@@ -207,7 +207,8 @@ body {
   padding: 2.5rem; }
 
 .legal a:link {
-  text-decoration: none; }
+  text-decoration: none;
+  color: var(--color-primary-dark); }
 
 .legal a:visited {
   color: var(--color-primary-dark); }
@@ -217,3 +218,20 @@ body {
 
 .legal a:active {
   color: var(--color-primary-dark); }
+
+.gallery {
+  display: flex;
+  margin: 0; }
+  .gallery__photo {
+    width: 100%;
+    display: block; }
+
+.overview {
+  display: flex;
+  justify-content: space-between; }
+  .overview__stars {
+    margin-right: auto; }
+  .overview__icon-star, .overview__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary); }
